@@ -2,13 +2,11 @@ version: 2.1
 
 jobs:
  world1:
-  build:
     docker:
       - image: node:current-slim
     steps:
       - run: echo "Hello world1!"
  world2:     
-  build:
     docker:
       - image: node:current-slim
     steps:
