@@ -15,5 +15,6 @@ jobs:
 workflows:
  hello:
   jobs:
-   -world1
-   -world2
+   world1
+   world2
+    
